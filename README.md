@@ -1,4 +1,4 @@
-![Let's Connect with each other](https://drive.google.com/file/d/17wfstb94mu0uaRITkDuQljZ8NxeMOVx7/view?usp=sharing)
+![Let's Connect with each other](https://drive.google.com/drive/u/0/folders/1-3ugksaAAr7bZd4T8B9qlcR_v-HxHS0U)
 # Team Pi : UNMUTE YOURSELF
 
 ## ABOUT THE PROJECT 
