@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pi Sign Language Translator</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="dist/build.js"></script> 
+    
+</head>
+<body>
+
+
+  <!-- The Modal -->
+  <div id="launchModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span id="close-modal">&times;</span>
+        <h2> Welcome to Pi. Your Voice !</h2>
+      </div>
+      <div class="modal-body" style="font-size: 20px;">
+        <p>This project was made with a view to give voice to some of the most unique human beings. 
+          Made with tensorflow.js wherein the user tends to add gestures as an example.
+        </p> 
+        <p><b><em>"Let's give Voice to those who are in need"</em></b></p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div id="status">
+    <p id="status-text">Status: Not Ready</p>
+  </div>
+  <video id="video" src='' muted autoplay playsinline></video>
+  <div class="split-left" style="color: white;">
+    <div class="centered">
+      <img style="margin-top: 650px; margin-left: -90px;width: 700px; height: 300px;" src="images/hands.jpg">
+      <div>
+        
+        <h1 style="font-size: 80px; font-family: monospace;margin-top: -3px;">UNMUTE YOURSELF</h1>
+      </div>
+      <h1 id="text" class="intro-steps">Step 1: Enter Words<br><br><span class="subtext">Add a few words below and then we'll assign it to a particular sign language.</h1>
+      <div id="training-list">
+        <div style="font-size: 25px;color: tomato;" id="example-list"></div>
+        <div id="add">
+          <form id="add-word" autocomplete="off" style="font-size: 25px; color: yellow;">
+            <input style="font-size: 20px;" type="text" id="new-word" placeholder="Add Training word">
+            <br/><br/>
+            <label>
+              <input type="checkbox" id="is-terminal-word">
+              Is terminal word?
+            </label>
+            <br/><br/>
+            <input style="font-size: 20px;" type="submit" value="Add Word">
+            
+            <p><b style="color: tomato;">Terminal Word</b> - A word which appears at the end of the sentence.</p>
+            <p>e.g If you intend to ask <i style="color: tomato;">"What's your name?" & "What's the time?"</i> then <b><em>your name</em></b> and <b><em>the time</em></b> are terminal words whereas <i style="color: tomato;">what's</i> is not</p>
+          </form>
+        </div>
+        <p style="font-size: 40px; color: tomato;" id="count">Training: 2 words</p>
+        <div style="font-size: 30px;" id="action-btn"></div>
+      </div>
+      
+    </div>
+  </div><br><br>
+  <div class="split-right" style="color: #ffff33;">
+    <div class="centered">
+      <div id="loader"></div>
+      <h1>
+        <span id="answerText"></span>
+        <span id="interimText"></span>
+      </h1>
+    </div>
+  </div>
+  
+  
+  
+
+</body>
+</html>
