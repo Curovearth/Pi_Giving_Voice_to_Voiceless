@@ -54,3 +54,8 @@ We also thought of adding a bluetooth connection to avoid the use of wires and g
 <a href="https://github.com/yatharthagr7"> Yatharth Agarwal :smile: </a>
 
 <a href="https://github.com/anvit1618"> Anvit Agarwal 👽 </a>
+
+
+<a href="https://github.com/Anvit1618/Pi_Giving_Voice_to_Voiceless/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Anvit1618/Pi_Giving_Voice_to_Voiceless" />
+</a>
