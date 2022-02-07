@@ -46,3 +46,11 @@ We'll make our hardware much more economical.
 We also thought of adding a bluetooth connection to avoid the use of wires and give much flexibility to the wearer.
 
 **..We tried to make a difference and hope you all like it..**
+
+## Brains behind this project:
+
+<a href="https://github.com/Curovearth"> Swarup Tripathy :smile: </a>
+
+<a href="https://github.com/yatharthagr7"> Yatharth Agarwal :smile: </a>
+
+<a href="https://github.com/anvit1618"> Anvit Agarwal 👽 </a>
